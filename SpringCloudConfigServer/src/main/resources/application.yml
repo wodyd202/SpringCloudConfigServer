@@ -1,15 +1,2 @@
 server:
   port: 8088
-  
-spring:
-  profiles:
-    active:
-    - native
-  cloud:
-    config:
-      server:
-        encrypt.enabled: false
-        git:
-          uri: https://github.com/wodyd202/SpringCloudConfigServer/tree/master/SpringCloudConfigServer/src/main/resources/config
-          search-paths: userApp
-      
