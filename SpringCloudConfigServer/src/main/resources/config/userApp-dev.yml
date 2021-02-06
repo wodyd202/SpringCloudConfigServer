@@ -6,8 +6,8 @@ spring:
   datasource:
     driver-class-name: org.h2.Driver
     url: "jdbc:h2:mem:testdb"
-    username: test
-    password: test
+    username: "{cipher}1ace4ad9d8c5e16ca0856eae24a1ce18eccfd8faa9978adb5782a273e8c22504"
+    password: "{cipher}1ace4ad9d8c5e16ca0856eae24a1ce18eccfd8faa9978adb5782a273e8c22504"
     hikari:
       auto-commit: false
       connection-test-query: SELECT 1
