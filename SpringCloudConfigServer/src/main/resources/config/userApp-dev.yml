@@ -5,9 +5,9 @@ spring:
       path: /h2-console
   datasource:
     driver-class-name: org.h2.Driver
-    url: "{cipher}d8d0e8ed67cae5005f16ce9217731cad27a3a1b86f45190c703d0662c785fa08aee0905607e99c5917515bd86308c734"
-    username: "{cipher}1ace4ad9d8c5e16ca0856eae24a1ce18eccfd8faa9978adb5782a273e8c22504"
-    password: "{cipher}1ace4ad9d8c5e16ca0856eae24a1ce18eccfd8faa9978adb5782a273e8c22504"
+    url: "jdbc:h2:mem:testdb"
+    username: "{cipher}8110e98b9136fcb3e32a0beb944fdf53ee9084624e6f92b260c1eb532d64e705"
+    password: "{cipher}8110e98b9136fcb3e32a0beb944fdf53ee9084624e6f92b260c1eb532d64e705"
     hikari:
       auto-commit: false
       connection-test-query: SELECT 1
