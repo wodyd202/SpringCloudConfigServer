@@ -1,0 +1,8 @@
+zuul:
+  ignored-services: "*"
+  routes:
+    userApp: /user/**
+
+userApp:
+  ribbon:
+    ReadTimeout: 15000
