@@ -18,6 +18,7 @@ public class SpringCloudConfigServerApplication {
 
 	@GetMapping("{username}")
 	public ResponseEntity<String> hello(@PathVariable String username) {
+		System.out.println("호출");
 		randomRunLong();
 		return new ResponseEntity<>("hello ~~~ " + username, HttpStatus.OK);
 	}
